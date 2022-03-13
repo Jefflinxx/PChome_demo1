@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+div {
+  width: 300px;
+}
+img {
+  max-width: 90%;
+}
+
+#u1 {
+  display: flex;
+}
+
+#u1 li {
+  flex: 1;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px 10px 0 0;
+}
+
+li a {
+  color: black;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.active a {
+  color: white;
+}
+
+#d2 {
+  /* 方向border-top要寫在border下面才有用 */
+  border: 1px solid;
+  border-top: none;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#d2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#d2 a.unblock {
+  display: none;
+}
