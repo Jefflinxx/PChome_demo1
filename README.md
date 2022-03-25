@@ -8,4 +8,4 @@
 ![image](https://github.com/Jefflinxx/PChome_demo1/blob/main/pchomedemo.gif)
 
 實作技術：
-HTML,css,javascript,jquery
+HTML,css,javascript
